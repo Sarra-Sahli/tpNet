@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "t\u00E2che-Domain",
+      "appliesTo": "AM.ApplicationCore/AM.ApplicationCore/Domain/",
+      "type": "launch"
+    }
+  ]
+}
