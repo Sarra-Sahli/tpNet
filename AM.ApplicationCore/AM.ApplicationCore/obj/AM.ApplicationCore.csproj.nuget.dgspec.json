@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
+    "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\Sarra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

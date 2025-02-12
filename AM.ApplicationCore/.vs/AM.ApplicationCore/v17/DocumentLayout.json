@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\",
+  "WorkspaceRootPath": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86E49485-8C86-44B1-A863-E07FE5E730DA}|AM.UI.Console\\AM.UI.Console.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E49485-8C86-44B1-A863-E07FE5E730DA}|AM.UI.Console\\AM.UI.Console.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86E49485-8C86-44B1-A863-E07FE5E730DA}|AM.UI.Console\\AM.UI.Console.csproj|solutionrelative:am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.applicationcore\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\domain\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.applicationcore\\domain\\passanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.applicationcore\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\net-tps\\am.applicationcore\\am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\sarra\\documents\\github\\tpnet\\am.applicationcore\\am.applicationcore\\domain\\passanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27163123-107B-4AF4-90A0-D7ECC9520186}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Flight.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Flight.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAjwAwAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.UI.Console\\Program.cs",
+              "RelativeDocumentMoniker": "AM.UI.Console\\Program.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.UI.Console\\Program.cs",
+              "RelativeToolTip": "AM.UI.Console\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAhwCUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:33:44.556Z"
+              "WhenOpened": "2025-02-07T13:17:22.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Passanger.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Passanger.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passanger.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Passanger.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passanger.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAvwCQAAABGAAAAAAAAAA==",
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Staff.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Staff.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Staff.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:34:49.417Z",
+              "WhenOpened": "2025-02-07T13:11:31.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Flight.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Flight.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Flight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:13:26.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Passanger.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Passanger.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passanger.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Passanger.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passanger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:12:58.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Plane.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Plane.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Plane.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:12:29.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestData.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\TestData.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\TestData.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\TestData.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\TestData.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:11:52.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Traveller.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Traveller.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Traveller.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Traveller.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Traveller.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Title": "FlightMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAASwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:35:07.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Staff.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Staff.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Staff.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Staff.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:34:59.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Plane.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Plane.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Domain\\Plane.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Plane.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvxcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:33:46.188Z",
+              "WhenOpened": "2025-02-07T13:05:07.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.UI.Console\\Program.cs",
-              "RelativeDocumentMoniker": "AM.UI.Console\\Program.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.UI.Console\\Program.cs",
-              "RelativeToolTip": "AM.UI.Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Title": "IFlightMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\tpNet\\AM.ApplicationCore\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:13:36.044Z",
+              "WhenOpened": "2025-02-07T13:04:31.827Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Class1.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Class1.cs",
-              "ToolTip": "C:\\Users\\Sarra\\Documents\\GitHub\\Net-tps\\AM.ApplicationCore\\AM.ApplicationCore\\Class1.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T13:10:53.476Z"
             }
           ]
         }
