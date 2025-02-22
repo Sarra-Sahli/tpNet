@@ -33,3 +33,4 @@ C:\Users\Sarra\Documents\GitHub\tpNet\AM.ApplicationCore\AM.ApplicationCore\obj\
 C:\Users\Sarra\Documents\GitHub\tpNet\AM.ApplicationCore\AM.ApplicationCore\obj\Debug\net8.0\refint\AM.ApplicationCore.dll
 C:\Users\Sarra\Documents\GitHub\tpNet\AM.ApplicationCore\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.pdb
 C:\Users\Sarra\Documents\GitHub\tpNet\AM.ApplicationCore\AM.ApplicationCore\obj\Debug\net8.0\ref\AM.ApplicationCore.dll
+C:\Users\Sarra\Documents\GitHub\tpNet\AM.ApplicationCore\AM.ApplicationCore\obj\Debug\net8.0\AM.ApplicationCore.csproj.AssemblyReference.cache

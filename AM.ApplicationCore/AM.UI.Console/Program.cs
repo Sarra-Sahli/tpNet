@@ -34,5 +34,17 @@ using AM.ApplicationCore.Services;
 FlightMethods fm = new FlightMethods();
 
 fm.Flights = TestData.listFlights;
-foreach (var flight in fm.GetFlightDates("Paris")) 
+//foreach (var flight in fm.GetFlightDates("Paris")) 
+//Console.WriteLine(flight);
+Console.WriteLine(fm.ProgrammedFlightNumber(new DateTime(2022, 01, 01)));
+Console.WriteLine(fm.DurationAverage("Paris"));
+foreach (var flight in fm.OrderedDurationFlights()) 
+
 Console.WriteLine(flight);
+foreach (var traveller in fm.SeniorTravellers(TestData.flight1))
+{
+    Console.WriteLine(traveller);
+}
+
+fm.DestinationGroupedFlight();
+

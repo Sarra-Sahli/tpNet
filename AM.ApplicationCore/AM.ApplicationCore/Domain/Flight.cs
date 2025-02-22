@@ -11,7 +11,8 @@ namespace AM.ApplicationCore.Domain
         public DateTime EffectiveArrival { get; set; }
         public int EstimatedDuration { get; set; } // Correction du type
         public DateTime FlightDate { get; set; }
-
+        public string AirlineLogo { get; set; }
+        
         public int PlaneFK { get; set; }
         public Plane Plane { get; set; }
         public ICollection<Passenger> Passengers { get; set; } = new List<Passenger>(); // Initialisation pour éviter NullReferenceException
@@ -20,5 +21,6 @@ namespace AM.ApplicationCore.Domain
         {
             return $"Flight to {Destination} on {FlightDate} (Duration: {EstimatedDuration} min)";
         }
+      
     }
 }
