@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AM.ApplicationCore.Domain;
+using AM.Infrastructure.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace AM.Infrastructure
@@ -23,7 +24,26 @@ namespace AM.Infrastructure
 Initial Catalog=AirportManagementDB;Integrated Security=true");
             base.OnConfiguring(optionsBuilder);
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new planeConfiguration());
+            modelBuilder.ApplyConfiguration(new FlightConfiguration());
+            modelBuilder.ApplyConfiguration(new PassengerConfiguration());
+            modelBuilder.ApplyConfiguration(new TicketConfiguration());
 
+            //TPT
+            modelBuilder.Entity<Staff>().ToTable(nameof(Staff));
+            modelBuilder.Entity<Traveller>().ToTable(nameof(Traveller));
+
+            base.OnModelCreating(modelBuilder);
+            
+
+        }
+        protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+        {
+            configurationBuilder.Properties<DateTime>().HaveColumnType("date");
+                base.ConfigureConventions(configurationBuilder);
+        }
 
     }
 }

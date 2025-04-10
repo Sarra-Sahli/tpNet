@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,17 +10,22 @@ namespace AM.ApplicationCore.Domain
     public class Passenger
     {
         public int Id { get; set; }
+        [Display(Name ="Date of birth")]
+        [DataType(DataType.DateTime)]
         public DateTime BirthDate { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string EmailAddress { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public FullName FullName { get; set; }
+        [Key]
+        [StringLength(7)]
         public string PassportNumber { get; set; }
+        [RegularExpression(@"^[0-9]{8}$")]
         public string TelNumber { get; set; }
-
+        public ICollection<Tickets> Tickets { get; set; }
         public ICollection<Flight> Flights { get; set; }
         public override string ToString()
         {
-            return "BirthDate: " + BirthDate + "EmailAddress" + EmailAddress+ "FirstName"+ FirstName+"LastName"+ LastName+ "PassportNumber"+PassportNumber+ "TelNumber"+ TelNumber;
+            return "BirthDate: " + BirthDate + "EmailAddress" + EmailAddress+ "FirstName"+ FullName.FirstName + "LastName"+ FullName.LastName + "PassportNumber"+PassportNumber+ "TelNumber"+ TelNumber;
         }
       
         public bool CheckProfile(string firstname, string lastname, string email)
@@ -27,11 +33,11 @@ namespace AM.ApplicationCore.Domain
             if (email == null)
             {
 
-                return FirstName == firstname && LastName == lastname && EmailAddress==email;
+                return FullName.FirstName == firstname && FullName.LastName == lastname && EmailAddress==email;
             }
             else
             {
-                return FirstName == firstname && LastName == lastname;
+                return FullName.FirstName == firstname && FullName.LastName == lastname;
             }
 
         } 
@@ -40,5 +46,6 @@ namespace AM.ApplicationCore.Domain
         {
             Console.WriteLine("Im a passenger");
         }
+
     }
 }

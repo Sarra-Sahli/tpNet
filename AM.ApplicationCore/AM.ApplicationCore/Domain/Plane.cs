@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace AM.ApplicationCore.Domain
 {
@@ -7,8 +8,9 @@ namespace AM.ApplicationCore.Domain
 
     public class Plane
     {
-        public int Id { get; set; }
+        [Range(0, int.MaxValue)]
         public int Capacity { get; set; }
+      
         public DateTime ManufactureDate { get; set; } // Correction du nom
         public int PlaneId { get; set; }
         public PlaneType Type { get; set; }

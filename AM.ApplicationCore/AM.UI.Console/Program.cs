@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
+using AM.Infrastructure;
 
 
 
@@ -33,18 +34,24 @@ using AM.ApplicationCore.Services;
 //tp2
 FlightMethods fm = new FlightMethods();
 
-fm.Flights = TestData.listFlights;
+//fm.Flights = TestData.listFlights;
 //foreach (var flight in fm.GetFlightDates("Paris")) 
 //Console.WriteLine(flight);
 Console.WriteLine(fm.ProgrammedFlightNumber(new DateTime(2022, 01, 01)));
 Console.WriteLine(fm.DurationAverage("Paris"));
-foreach (var flight in fm.OrderedDurationFlights()) 
+foreach (var flight in fm.OrderedDurationFlights())
 
-Console.WriteLine(flight);
-foreach (var traveller in fm.SeniorTravellers(TestData.flight1))
-{
-    Console.WriteLine(traveller);
-}
+    //Console.WriteLine(flight);
+    //foreach (var traveller in fm.SeniorTravellers(TestData.flight1))
+    //{
+    //    Console.WriteLine(traveller);
+    //}
+ fm.DestinationGroupedFlight();
 
-fm.DestinationGroupedFlight();
+AMContext context = new AMContext();
+context.flights.Add(TestData.flight1);
+context.SaveChanges();
+Console.WriteLine("Ajout avec succes");
+
+
 
