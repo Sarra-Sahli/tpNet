@@ -9,17 +9,9 @@ namespace AM.ApplicationCore.Interfaces
 {
     public interface IServiceFlight : IService<Flight>
     {
+        public IEnumerable<Flight> GetFlightsOrderedByDeparture(int n);
+        public bool NbPlaceDisponible(Flight f, int n);
+        public IList<Staff> GetAllstaffByid(int id);
 
-        // Vols ordonnés par date de départ des n derniers avions
-        IEnumerable<Flight> GetFlightsOrderedByDeparture(int n);
-
-        // Vérification de disponibilité de places
-        bool CanReserveNSeats(Flight flight, int n);
-
-        // Suppression des avions de plus de 10 ans
-        void DeletePlanesOlderThan10Years();
-
-        // Staff d'un vol spécifique
-        IEnumerable<Staff> GetStaffOfFlight(int flightId);
     }
 }

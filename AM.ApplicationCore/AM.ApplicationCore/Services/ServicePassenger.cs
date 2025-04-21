@@ -24,13 +24,7 @@ namespace AM.ApplicationCore.Services
                 .Distinct();
         }
 
-        public IEnumerable<Passenger> GetPassengersByPlaneAndDate(Plane plane, DateTime date)
-        {
-            return _unitOfWork.Repository<Flight>().GetAll()
-                .Where(f => f.Plane == plane && f.FlightDate.Date == date.Date)
-                .SelectMany(f => f.Passengers)
-                .Distinct();
-        }
+       
 
         public void ShowPassengerCountByFlightDate(DateTime startDate, DateTime endDate)
         {
@@ -48,6 +42,14 @@ namespace AM.ApplicationCore.Services
                 Console.WriteLine($"Date: {item.Date.ToShortDateString()}, Nombre de passagers: {item.PassengerCount}");
             }
         }
+        public IList<Passenger> GetPassengersByPlaneAndDate(Plane plane, DateTime date)
+        {
+            return GetById(plane.PlaneId).Flights.Where(f => f.FlightDate == date)
+                .SelectMany(t=>t.Tickets.Select(p=>p.Passenger))
+                .ToList();
+          }
+
+
     }
 }
 

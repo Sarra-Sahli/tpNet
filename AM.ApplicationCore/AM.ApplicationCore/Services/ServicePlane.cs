@@ -13,5 +13,12 @@ namespace AM.ApplicationCore.Services
         public ServicePlane(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
+
+        public IList<Flight> GetFlight(int n)
+        {
+            return GetAll().OrderByDescending(p => p.PlaneId)
+                .SelectMany(p => p.Flights).
+                OrderBy(f => f.FlightDate).Take(n).ToList();
+        }
     }
 }
