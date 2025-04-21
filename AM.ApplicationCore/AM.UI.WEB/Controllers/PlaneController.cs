@@ -1,76 +1,62 @@
 ﻿using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Interfaces;
+using AM.ApplicationCore.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Identity.Client;
 
 namespace AM.UI.WEB.Controllers
 {
-    public class FlightController : Controller
+    public class PlaneController : Controller
     {
-        public IServiceFlight serviceFlight;
         public IServicePlane servicePlane;
 
-        public FlightController(IServiceFlight serviceFlight, IServicePlane servicePlane)
+        public PlaneController(IServicePlane servicePlane)
         {
-            this.serviceFlight = serviceFlight;
             this.servicePlane = servicePlane;
         }
 
-        // GET: FlightController
-        public ActionResult Index(DateTime? dateDepart)
+        // GET: PlaneController
+        public ActionResult Index()
         {
-            if (dateDepart == null)
-            {
-                return View(serviceFlight.GetAll().ToList());
-            }
-            else
-            {
-                return View(serviceFlight.GetMany(f => f.FlightDate.Equals(dateDepart)).ToList());
-            }
+            return View(servicePlane.GetAll());
         }
 
-      
-        // GET: FlightController/Details/5
+        // GET: PlaneController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: FlightController/Create
+        // GET: PlaneController/Create
         public ActionResult Create()
         {
-            ViewBag.Planes = new SelectList(servicePlane.GetAll().ToList(), "PlaneId","PlaneId");
             return View();
         }
 
-
-        // POST: FlightController/Create
+        // POST: PlaneController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Flight flight)
+        public ActionResult Create(Plane plane)
         {
             try
             {
-                serviceFlight.Add(flight);
-                serviceFlight.Commit();
+                servicePlane.Add(plane);
+                servicePlane.Commit();
                 return RedirectToAction(nameof(Index));
-                    
-                    }
+            }
             catch
             {
                 return View();
             }
         }
 
-        // GET: FlightController/Edit/5
+        // GET: PlaneController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: FlightController/Edit/5
+        // POST: PlaneController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -85,13 +71,13 @@ namespace AM.UI.WEB.Controllers
             }
         }
 
-        // GET: FlightController/Delete/5
+        // GET: PlaneController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: FlightController/Delete/5
+        // POST: PlaneController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

@@ -5,7 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace AM.ApplicationCore.Domain
 {
     public class Flight
-    {
+    {  
+        public string Pilet { get; set; }
         public int FlightId { get; set; }
         public string Departure { get; set; }
         public string Destination { get; set; }
